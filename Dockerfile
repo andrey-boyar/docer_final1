@@ -9,7 +9,6 @@ RUN go mod tidy
 COPY . .
 
 #RUN go test -v
-
 RUN go build -o app
 
 CMD ["./app"]
